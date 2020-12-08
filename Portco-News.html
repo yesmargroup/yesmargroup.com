@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content='width=device-width, initial-scale=1' name='viewport'/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ <!-- Browser Icon -->
+  <link rel="icon" href="Logo-1vfColored-Eagle.png" type="image/gif" sizes="16x16">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="Portco-news.css">
+  <!-- Text API -->
+  <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
+
+
+
+
+  <title>YESMAR</title>
+</head>
+
+<body>
+
+<!-- START NAVBAR -->
+<nav id="navbar"class="navbar navbar-expand-lg static-top">
+  <div class="container">
+    <a class="navbar-brand" href="170x70-navbar-logo.jpg">
+          <img src="170x70-navbar-logo.jpg" alt="">
+        </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="Index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Reading-Materials.html" >Reading Materials</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- END NAVBAR -->
+
+
+
+
+
+  <!-- Start LIST -->
+<div = class = "container">
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+  <ul id="myUL">
+    <li><a href="#">Tesla</a></li>
+    <li><a href="#">Apple</a></li>
+    <li><a href="#">Amazon</a></li>
+    <li><a href="#">Shopify</a></li>
+    <li><a href="#">Spoitify</a></li>
+    <li><a href="#">Virgin Galactic</a></li>
+    <li><a href="#">Nio</a></li>
+  </ul>
+</div>
+<!-- END LIST -->
+
+
+<!-- START LIST LOGIC -->
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+
+<!-- END LIST LOGIC -->
+
+  </body>
+</html>

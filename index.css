@@ -1,4 +1,9 @@
-
+#sitehead {
+	text-align:center;
+	width:100%;
+	display:block;
+	margin:auto;
+}
 
 
 #post {
@@ -26,6 +31,7 @@
 	font-weight: bold;
 	font-style: oblique;
 }
+
 img.test {
     width: 100%;
     height: auto;
