@@ -15,8 +15,8 @@ function HomePage() {
         <center>
         <div className="container" id="sitehead">
           <img src="images/Yesmar-Website-Header.jpg" width={450} height={150} />
-          <p><a href="Reading-Materials.html" className="btn btn-colour-1">Reading Materials</a></p>
-          <p><a href="About.html" className="btn btn-colour-1">About</a></p>
+          <p><a href="Reading-Materials" className="btn btn-colour-1">Reading Materials</a></p>
+          <p><a href="About" className="btn btn-colour-1">About</a></p>
         </div>
         </center>
         {/* Mandate */}
