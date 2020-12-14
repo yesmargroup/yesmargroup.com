@@ -1,3 +1,4 @@
+
 function HomePage() {
   return (
 <div>
@@ -6,7 +7,7 @@ function HomePage() {
         {/* Browser Icon */}
         <link rel="icon" href="Logo-1vfColored-Eagle.png" type="image/gif" sizes="16x16" />
         {/* CSS Stylesheet */}
-        <link rel="stylesheet" type="text/css" href="index.css" />
+        <link rel="stylesheet" type="text/css" href="../styles/index.css" />
         {/* Text API */}
         <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet" />
@@ -15,8 +16,8 @@ function HomePage() {
         <center>
         <div className="container" id="sitehead">
           <img src="images/Yesmar-Website-Header.jpg" width={450} height={150} />
-          <p><a href="Reading-Materials" className="btn btn-colour-1">Reading Materials</a></p>
-          <p><a href="About" className="btn btn-colour-1">About</a></p>
+          <p><a href="Reading-Materials" className="btn-colour-1">Reading Materials</a></p>
+          <p><a href="About" className="btn-colour-1">About</a></p>
         </div>
         </center>
         {/* Mandate */}
@@ -366,7 +367,7 @@ function HomePage() {
                                                 <p>I think this is what started my obsession with Spotify's business.</p>
                                               </div>
                                               <div className="container">
-                                                <p><a href="2019 Annual Report_vEXTERNAL.pdf" className="btn btn-colour-1">2019 Fund Report</a></p>
+                                                <p><a href="public\documents\2019 Annual Report_vEXTERNAL.pdf" className="btn btn-colour-1">2019 Fund Report</a></p>
                                               </div></section>
                                             {/* END Post Content */}
                                             {/* Fund Report Download */}

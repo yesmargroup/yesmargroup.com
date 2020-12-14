@@ -80,16 +80,6 @@ function About(){
             </div>
           </section></div>
       </div>
-
-
-
-
-
-
-
-
-
-
     );
 }
 export default About;
