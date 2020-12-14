@@ -18,7 +18,7 @@ yesmargroup.com is a website that provides insight viewers with investment strat
 - integrate mailing 
 - implement headless CMS capabilities 
 - [NewsAPI](https://newsapi.org/)
-- [StockAPI](polygon.io)
+- [StockAPI](https://polygon.io)
 ## Installation
 
 Use the package manager [npm](https://www.npmjs.com/) to install this application.
